@@ -8,15 +8,15 @@ import seaborn as sns
 ****df = pd.read_csv('Heart.csv')
 print(df)
 
-****df.shape #gives the number of rows and columns
+//shape**** df.shape #gives the number of rows and columns
 
 ****df.head() #gives first 5 rows
 
-****df.dtypes #gives the datatypes of columns
+//find datatype ****df.dtypes #gives the datatypes of columns
 
-****df.isnull().sum() #counts the no. of missing values in each row or column in a dataframe
+//find missing values ****df.isnull().sum() #counts the no. of missing values in each row or column in a dataframe
 
-****(df==0).sum() #count number of zero values in a dataframe
+//find out zeros ****(df==0).sum() #count number of zero values in a dataframe
 
 ****df['Age'].mean()
 
