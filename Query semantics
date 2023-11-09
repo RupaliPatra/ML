@@ -1,0 +1,20 @@
+Sure! Here are some commonly used semantics queries in MongoDB with examples:
+
+1. Equality: Find documents where a specific field matches a given value.
+   Example: `db.collection.find({ field: "value" })`
+
+2. Comparison: Find documents where a field satisfies a specific comparison condition.
+   Example: `db.collection.find({ field: { $gt: value } })` (find documents where "field" is greater than "value")
+
+3. Inclusion: Find documents where a field's value exists in a specified array.
+   Example: `db.collection.find({ field: { $in: [value1, value2, ...] } })`
+
+4. Logical AND: Find documents where multiple conditions are true.
+   Example: `db.collection.find({ $and: [{ condition1 }, { condition2 }, ...] })`
+
+5. Logical OR: Find documents where at least one of the specified conditions is true.
+   Example: `db.collection.find({ $or: [{ condition1 }, { condition2 }, ...] })`
+
+These are just a few examples of semantics queries in MongoDB. There are many more operators and query options available to perform complex queries based on your needs.
+
+If you have any more questions or need further examples, feel free to ask! 😊
